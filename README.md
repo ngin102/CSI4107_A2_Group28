@@ -18,6 +18,6 @@ Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
 * **[Experiment 2](experiment_2)**: Versions of our IR System that we implemented for Experiment 2. 
 
 * **[Experiment 3](experiment_3)**: Versions of our IR System that we implemented for Experiment 3. 
-  * **[SBERT](experiment_3/experiment_3_SBERT)**: Version of our IR System that ranks documents using a SBRET model.
+  * **[SBERT](experiment_3/experiment_3_SBERT)**: Version of our IR System that ranks documents using a SBERT model.
   * **[sent2vec](experiment_3/experiment_3_sent2vec)**: Version of our IR System that ranks documents using a sent2vec model.
   
