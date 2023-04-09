@@ -1,1 +1,23 @@
-# CSI4107_A2_Group28
+# CSI4107 - Assignment 2 (Group 28)
+
+Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
+
+## Report
+* **[Our report](report.pdf)**: An overview and discussion of the work we did on this assignment and the results we obtained.
+
+## Code (Experiments)
+* **[Base programs (Assignment 1)](base_programs)**: Base versions of our IR System program that meet the criteria for Assignment 1.
+  * **[BM25](base_programs/base_bm25)**: Base program that uses BM25 to rank documents against queries.
+  * **[Cosine Similarity](base_programs/base_cosine)**: Base program that uses cosine similarity to rank documents against queries.
+  
+* **[Experiment 1](experiment_1)**: Versions of our IR System that we implemented for Experiment 1. 
+  * **[BM25 + GPTNeo](experiment_1/experiment_1_GPTNeo)**: Version of our IR System that initially ranks documents using BM25 and then re-ranks them using a GPTNeo model.
+  * **[BM25 + SBERT](experiment_1/experiment_1_SBERT)**: Version of our IR System that initially ranks documents using BM25 and then re-ranks them using a SBERT model.
+  * **[BM25 + USE](experiment_1/experiment_1_USE)**: Version of our IR System that initially ranks documents using BM25 and then re-ranks them using a USE model.
+
+* **[Experiment 2](experiment_2)**: Versions of our IR System that we implemented for Experiment 2. 
+
+* **[Experiment 3](experiment_3)**: Versions of our IR System that we implemented for Experiment 3. 
+  * **[SBERT](experiment_3/experiment_3_SBERT)**: Version of our IR System that ranks documents using a SBRET model.
+  * **[sent2vec](experiment_3/experiment_3_sent2vec)**: Version of our IR System that ranks documents using a sent2vec model.
+  
