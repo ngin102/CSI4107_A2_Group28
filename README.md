@@ -16,7 +16,7 @@ Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
   * **[BM25 + USE](experiment_1/experiment_1_USE)**: Version of our IR System that initially ranks documents using BM25 and then re-ranks them using a USE model.
 
 * **[Experiment 2](experiment_2)**: Versions of our IR System that we implemented for Experiment 2. 
-  * **[Word2Vec](experiment_2/Word2Vec)**: Version of our IR System that disriminately adds related words to a query.
+  * **[Word2Vec](experiment_2/Word2Vec)**: Version of our IR System that discriminately adds related words to a query.
   * **[Hugging Face Query Rewriter](experiment_2/HF_Query_Rewriter)**: Version of our IR System that re-writes queries using a Hugging Face text summarization model.
   * **[NLTK Query Synonymizer](experiment_2/NLTK_Query_Synonymizer)**: Version of our IR System that expands a query by indisciminately adding synonyms for each query token word.
   * **[Token Frequency Exclusion](experiment_2/NLTK_Query_Synonymizer/index.py)**: Commented out here. To use this requires commenting def get_tokenized_corpus(self) and uncommenting def get_tokenized_corpus(self, freq_threshold=10) with the desired frequency inclusion threshhold. This is used in the "ad-hoc" experiment at the end of the report.
