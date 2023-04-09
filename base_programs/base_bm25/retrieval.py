@@ -5,8 +5,6 @@ class Retrieval:
     def __init__(self, ii: InvertedIndexBM25, printKey):
         self.invertedIndex = ii
         self.similarityScores = {}
-        self.queryInfo = {}
-        self.queryLength = 0.0
         self.printKey = printKey
 
     def calculateSimilarity(self, query):
