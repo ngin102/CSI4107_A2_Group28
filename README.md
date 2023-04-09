@@ -4,6 +4,9 @@ Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
 
 ## Report
 * **[(README) Our report](report.pdf)**: An overview and discussion of the work we did on this assignment and the results we obtained.
+  
+## Best Results
+* **[Best Results file (base BM25)](results.txt)**: Our best results file is technically our results file for our base BM25 program. No neutral retrieval model was able to outperform this program.
 
 ## Code (Experiments)
 * **[Base programs (Assignment 1)](base_programs)**: Base versions of our IR System program that meet the criteria for Assignment 1.
