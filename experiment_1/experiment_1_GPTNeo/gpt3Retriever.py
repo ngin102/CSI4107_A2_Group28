@@ -100,7 +100,7 @@ class GPT3Retriever:
             print(f"------------------------- 1000 for queryNo {self.queryNo} -------------------------")
             for idx in ranked_docs:
                 rounded_value = "{:.4f}".format(idx[1])
-                write_str = f"{self.queryNo} Q0 {idx[0]} {str(count)} {rounded_value} trial4"
+                write_str = f"{self.queryNo} Q0 {idx[0]} {str(count)} {rounded_value} experiment1_GPTNeo"
                 file.write(write_str)
                 file.write(os.linesep)
                 count += 1
