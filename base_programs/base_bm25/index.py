@@ -22,20 +22,10 @@ class Index:
 
     def insert(self, token, document_id):
         if document_id not in self.index:
-            self.index[document_id] = token.split(" ")
+            tokens = token.split(" ")
+            tokens = [t for t in tokens if t not in self.stopwords]
+            self.index[document_id] = tokens
             self.numDocs += 1
-            pass
-        # if document_id not in self.index and token not in self.stopwords:
-        #     self.index[document_id] = {token: 1}
-        #     self.numDocs += 1
-        # else:
-        #     if token not in self.stopwords:
-        #         if token not in self.index[document_id]:
-        #             self.index[document_id][token] = 1
-        #             self.numDocs += 1
-        #         else:
-        #             self.index[document_id][token] += 1
-        pass
 
     def contain_ref_to_full_doc(self, full_doc):
         self.full_doc = full_doc

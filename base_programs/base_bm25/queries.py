@@ -53,7 +53,6 @@ class Queries:
                             stemmed_query += stemmed_word + " "
 
                     self.queries[str(i)] = stemmed_query.strip()
-                    # self.full_query[str(i)] = stemmed_query.strip()
 
     def get_queries(self) -> Dict[str, str]:
         return self.queries
