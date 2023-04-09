@@ -90,8 +90,7 @@ def main():
         with open(inverted_index_file, 'wb') as f:
             pickle.dump(inverted_index, f)
             print("Saved inverted_index.pkl")
-
-        print("Size of inverted index vocabulary:", inverted_index.size(), ".")
+            
         end = time.time()
         print((end - start), "seconds elapsed.\n")
     
