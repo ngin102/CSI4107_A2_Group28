@@ -6,7 +6,6 @@ class Index:
         self.index = {}
         self.stopwords = {}
         self.numDocs = 0
-        self.full_doc = {}
 
         s = PorterStemmer()
         current_file_dir = os.path.dirname(os.path.abspath(__file__))
@@ -28,12 +27,6 @@ class Index:
                     self.index[document_id][token] = 1
                 else:
                     self.index[document_id][token] += 1
-
-    def contain_ref_to_full_doc(self, full_doc):
-        self.full_doc = full_doc
-
-    def get_full_doc(self):
-        return self.full_doc
 
     def frequency(self, doc_id, token):
         return self.index[doc_id][token]
