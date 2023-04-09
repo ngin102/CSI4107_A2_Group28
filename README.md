@@ -18,7 +18,7 @@ Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
 * **[Experiment 2](experiment_2)**: Versions of our IR System that we implemented for Experiment 2. 
   * **[Word2Vec](experiment_2/Word2Vec)**: Version of our IR System that disriminately adds related words to a query.
   * **[Hugging Face Query Rewriter](experiment_2/HF_Query_Rewriter)**: Version of our IR System that re-writes queries using a Hugging Face text summarization model.
-  * **[NLRK Query Synonymizer](experiment_2/NLTK_Query_Synonymizer)**: Version of our IR System that expands a query by indisciminately adding synonyms for each query token word.
+  * **[NLTK Query Synonymizer](experiment_2/NLTK_Query_Synonymizer)**: Version of our IR System that expands a query by indisciminately adding synonyms for each query token word.
 
 * **[Experiment 3](experiment_3)**: Versions of our IR System that we implemented for Experiment 3. 
   * **[SBERT](experiment_3/experiment_3_SBERT)**: Version of our IR System that ranks documents using a SBERT model.
