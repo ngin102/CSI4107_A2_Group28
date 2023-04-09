@@ -3,7 +3,7 @@
 Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
 
 ## Report
-* **[Our report](report.pdf)**: An overview and discussion of the work we did on this assignment and the results we obtained.
+* **[(README) Our report](report.pdf)**: An overview and discussion of the work we did on this assignment and the results we obtained.
 
 ## Code (Experiments)
 * **[Base programs (Assignment 1)](base_programs)**: Base versions of our IR System program that meet the criteria for Assignment 1.
