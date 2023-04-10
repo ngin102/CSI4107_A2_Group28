@@ -17,7 +17,7 @@ def main():
         os.remove(results_file)
         print(results_file, 'has been deleted.\n')
     
-    print('Attempting to read',h.join(current_file_dir, 'coll'))
+    print('Attempting to read', os.path.join(current_file_dir, 'coll'))
     preprocessor = Preprocessor(os.path.join(current_file_dir, 'coll'))
     
     # ###########################################################################

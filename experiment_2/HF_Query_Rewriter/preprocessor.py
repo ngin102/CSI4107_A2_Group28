@@ -24,7 +24,7 @@ class Preprocessor:
                 try:
                     # Read the contents of the file
                     with open(file_path, 'r') as file:
-                        summarizer = Summarizer()
+                        # summarizer = Summarizer()
                         content = file.read()
 
                         # Split the file into individual documents based on the <DOC> tag
