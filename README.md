@@ -23,6 +23,7 @@ Adrian D'Souza (300066117), Nicholas Gin (300107597), Jared Wagner (300010832)
   * **[Hugging Face Query Rewriter](experiment_2/HF_Query_Rewriter)**: Version of our IR System that re-writes queries using a Hugging Face text summarization model.
   * **[NLTK Query Synonymizer](experiment_2/NLTK_Query_Synonymizer)**: Version of our IR System that expands a query by indisciminately adding synonyms for each query token word.
   * **[Token Frequency Exclusion](experiment_2/NLTK_Query_Synonymizer/index.py)**: Commented out here. To use this requires commenting def get_tokenized_corpus(self) and uncommenting def get_tokenized_corpus(self, freq_threshold=10) with the desired frequency inclusion threshhold. This is used in the "ad-hoc" experiment at the end of the report.
+  * **[BM25 (no stopwords)](experiment_2/bm25_no_stopwords)**: Version of our base BM25 system that does not remove stop words from documents.
 
 * **[Experiment 3](experiment_3)**: Versions of our IR System that we implemented for Experiment 3. 
   * **[SBERT](experiment_3/experiment_3_SBERT)**: Version of our IR System that ranks documents using a SBERT model.
